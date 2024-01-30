@@ -1,0 +1,27 @@
+.header{
+  &-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+
+  &-logo{
+    width: 97px;
+    height: 32px;
+  }
+
+  .nav{
+    flex: 0.85;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu{
+    display: flex;
+
+    &-link{
+        padding: 17px;
+    }
+  }
+}
