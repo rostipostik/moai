@@ -1,27 +1,31 @@
-.header{
-  &-wrapper{
+.header {
+  &-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }  
+  }
 
-  &-logo{
+  &-fixed {
+    padding-top: 30px;
+  }
+
+  &-logo {
     width: 97px;
     height: 32px;
   }
 
-  .nav{
-    flex: 0.85;
+  .nav {
+    flex: 0.70;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .menu{
+  .menu {
     display: flex;
 
-    &-link{
-        padding: 17px;
+    &-link {
+      padding: 17px;
     }
   }
 }

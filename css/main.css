@@ -247,17 +247,26 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header-fixed {
+  padding-top: 30px;
 }
 .header-logo {
   width: 97px;
   height: 32px;
 }
 .header .nav {
-  flex: 0.85;
+  flex: 0.7;
   display: flex;
   justify-content: space-between;
   align-items: center;
