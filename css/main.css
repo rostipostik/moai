@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
 /*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -247,6 +248,12 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
@@ -276,4 +283,9 @@ a {
 }
 .header .menu-link {
   padding: 17px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: 0.04em;
+  color: #141f39;
 }/*# sourceMappingURL=main.css.map */
