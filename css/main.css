@@ -262,6 +262,7 @@ body {
 
 .header {
   background: url(../img/bg-header.png) no-repeat center, linear-gradient(176deg, #ffeded 0%, rgba(255, 237, 237, 0) 100%), linear-gradient(105deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  position: relative;
 }
 .header-wrapper {
   display: flex;
@@ -364,4 +365,21 @@ body {
   letter-spacing: -0.01em;
   color: #615e59;
   margin-bottom: 50px;
+}
+.header .link-scrolle {
+  display: block;
+  width: 66px;
+  height: 79px;
+  background: url(../img/link-scroll.svg) no-repeat bottom center;
+  font-size: 10px;
+  color: #615e59;
+  line-height: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 15px;
+  transition: 0.3s linear;
+}
+.header .link-scrolle:hover {
+  background: url(../img/link-scroll-dark.svg) no-repeat bottom center;
 }/*# sourceMappingURL=main.css.map */
