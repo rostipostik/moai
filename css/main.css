@@ -370,7 +370,7 @@ body {
   display: block;
   width: 66px;
   height: 79px;
-  background: url(../img/link-scroll.svg) no-repeat bottom center;
+  background: url(../img/btn.png) no-repeat bottom center;
   font-size: 10px;
   color: #615e59;
   line-height: 2;
@@ -381,5 +381,5 @@ body {
   transition: 0.3s linear;
 }
 .header .link-scrolle:hover {
-  background: url(../img/link-scroll-dark.svg) no-repeat bottom center;
+  background: url(../img/btn-black.png) no-repeat bottom center;
 }/*# sourceMappingURL=main.css.map */
