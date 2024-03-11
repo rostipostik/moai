@@ -260,6 +260,24 @@ body {
   margin: 0 auto;
 }
 
+.subtitle {
+  display: block;
+  width: 185px;
+  margin: 0 auto 16px;
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  background: linear-gradient(180deg, #fff 0%, #d7e8fd 100%);
+  border: 1px solid #e5ebf2;
+  border-radius: 18px;
+  padding: 6px 0;
+  letter-spacing: -0.01em;
+  text-align: center;
+  background: linear-gradient(180deg, #f8792b 0%, #fab519 99.99%, rgba(236, 178, 47, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -468,4 +486,8 @@ body {
 }
 .header .link-scrolle:hover {
   background: url(../img/btn-black.png) no-repeat bottom center;
+}
+
+.testimonials {
+  padding: 150px 0 220px;
 }/*# sourceMappingURL=main.css.map */
