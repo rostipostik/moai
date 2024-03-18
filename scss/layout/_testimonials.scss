@@ -1,5 +1,35 @@
-.testimonials{
+.testimonials {
     padding: 150px 0 220px;
 
-    
+    .slider-text {
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 40px;
+        line-height: 1.4;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #2a2e33;
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+
+    &.next {
+        right: 0;
+    }
+
+    &.prev {
+        left: 0;
+    }
+}
 }

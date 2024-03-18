@@ -278,6 +278,16 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #2a2e33;
+  margin-bottom: 64px;
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -490,4 +500,29 @@ body {
 
 .testimonials {
   padding: 150px 0 220px;
+}
+.testimonials .slider-text {
+  text-align: center;
+}
+.testimonials p {
+  font-size: 40px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2a2e33;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.testimonials .slick-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.testimonials .slick-btn.next {
+  right: 0;
+}
+.testimonials .slick-btn.prev {
+  left: 0;
 }/*# sourceMappingURL=main.css.map */

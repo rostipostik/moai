@@ -23,7 +23,6 @@ body {
     margin: 0 auto;
 }
 
-.title {}
 
 .subtitle {
     display: block;
@@ -40,4 +39,14 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #2a2e33;
+    margin-bottom: 64px;
 }

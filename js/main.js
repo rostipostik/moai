@@ -3,8 +3,8 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow:"<img class='prev slick-btn' src='./img/arrow-right.svg'>",
-        nextArrow:"<img class='next slick-btn' src='./img/arrow-left.svg'>"
+        prevArrow:"<img class='next slick-btn' src='./img/arrow-right.svg'>",
+        nextArrow:"<img class='prev slick-btn' src='./img/arrow-left.svg'>"
     });
     $('.slider-avatars').slick();
 });
