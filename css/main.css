@@ -525,4 +525,52 @@ body {
 }
 .testimonials .slick-btn.prev {
   left: 0;
+}
+.testimonials .avatar {
+  opacity: 0.8;
+  transition: 0.3s linear;
+  position: relative;
+}
+.testimonials .avatar img {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s linear;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testimonials .avatar span {
+  overflow: hidden;
+  width: 0;
+  display: block;
+}
+.testimonials .slick-slide {
+  margin: 0 20px;
+}
+.testimonials .slick-center .avatar {
+  opacity: 1;
+  width: 260px;
+  padding-left: 76px;
+}
+.testimonials .slick-center .avatar img {
+  width: 56px;
+  height: 56px;
+  left: 0;
+  transform: translateX(0);
+}
+.testimonials .slick-center .avatar span {
+  width: auto;
+}
+.testimonials .slick-center .avatar-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+  letter-spacing: 0.04em;
+  color: #101828;
+}
+.testimonials .slick-center .avatar-job {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #667085;
 }/*# sourceMappingURL=main.css.map */
