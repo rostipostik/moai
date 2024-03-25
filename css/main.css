@@ -501,6 +501,9 @@ body {
 .testimonials {
   padding: 150px 0 220px;
 }
+.testimonials-slider {
+  margin-bottom: 48px;
+}
 .testimonials .slider-text {
   text-align: center;
 }
@@ -517,7 +520,7 @@ body {
 .testimonials .slick-btn {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(180deg);
   z-index: 2;
 }
 .testimonials .slick-btn.next {
