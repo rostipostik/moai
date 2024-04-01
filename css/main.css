@@ -576,4 +576,30 @@ body {
   line-height: 1.5;
   letter-spacing: -0.01em;
   color: #667085;
+}
+
+.strategize-subtitle {
+  margin: 0 0 16px;
+  background: linear-gradient(180deg, #3db54a 0%, #d0ea16 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.strategize-title {
+  max-width: 641px;
+  width: 100%;
+  text-align: left;
+}
+.strategize .inner-top {
+  background: url(../img/cube.png) no-repeat right top;
+  margin-bottom: 50px;
+}
+.strategize .quise {
+  border-radius: 50px;
+  border: 2px solid rgba(68, 184, 72, 0.12);
+  padding: 40px 52px 40px 50px;
+}
+.strategize .quise-list {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
