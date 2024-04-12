@@ -15,4 +15,10 @@ $(document).ready(function () {
         centerPadding: '60px',
         asNavFor: '.testimonials-slider'
     });
+
+    $('.quise-item').click(function(){
+        $('.quise-item').removeClass('active')
+        $(this).addClass('active')
+
+    })
 });

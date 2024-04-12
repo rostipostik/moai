@@ -632,8 +632,55 @@ body {
   color: #2a2e33;
   position: relative;
   z-index: 2;
+  cursor: pointer;
 }
 .strategize .quise-item.active {
   background: #fbbc00;
   color: #fff;
+}
+.strategize .quise-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 42px;
+  margin-top: 7px;
+}
+.strategize .quise-img {
+  max-width: 397px;
+  width: 100%;
+}
+.strategize .quise-content {
+  max-width: 422px;
+  width: 100%;
+  padding-top: 44px;
+}
+.strategize .quise-content-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  color: #2a2e33;
+  display: block;
+  margin-bottom: 10px;
+}
+.strategize .quise-content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #707d8e;
+  display: block;
+  margin-bottom: 20px;
+}
+.strategize .quise-content-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #2a2e33;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  background: url(../img/arrow-item.svg) no-repeat left center;
+}
+.strategize .quise-content-item:last-child {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
