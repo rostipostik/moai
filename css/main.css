@@ -705,8 +705,39 @@ body {
 .services .project {
   max-width: 420px;
   width: 100%;
+  height: 412px;
+  position: relative;
   box-shadow: 0 4px 6px -2px rgba(16, 24, 40, 0.03), 0 12px 20px -4px rgba(16, 24, 40, 0.15);
   background: #fff;
   border: 1px solid #eff4f9;
   border-radius: 12px;
+}
+.services .project div {
+  padding: 24px;
+}
+.services .project h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  color: #2a2e33;
+  margin-bottom: 10px;
+}
+.services .project p {
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #707d8e;
+  margin-bottom: 20px;
+}
+.services .project a {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  width: 109px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2a2e33;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
