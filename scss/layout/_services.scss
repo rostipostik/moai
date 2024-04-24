@@ -1,0 +1,28 @@
+.services{
+
+    padding: 150px 0;
+
+    &-title {
+        max-width: 904px;
+        width: 100%;
+        margin: 0 auto 64px;
+    }
+
+    &-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 20px;
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+    
+    .project {
+        max-width: 420px;
+        width: 100%;
+        box-shadow: 0 4px 6px -2px rgba(16, 24, 40, 0.03), 0 12px 20px -4px rgba(16, 24, 40, 0.15);
+        background: $colorWite;
+        border: 1px solid #eff4f9;
+        border-radius: 12px;
+    }
+}
