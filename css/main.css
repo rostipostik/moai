@@ -741,4 +741,19 @@ body {
   color: #2a2e33;
   display: block;
   background: url(../img/circle-arrow-right.svg) no-repeat right center;
+}
+
+.strategy-wrapper {
+  display: flex;
+}
+.strategy-content {
+  max-width: 640px;
+  width: 100%;
+  background: url(../img/mix.jpg) no-repeat left bottom;
+}
+.strategy-subtitle {
+  margin: 0 auto 16px 0;
+}
+.strategy-title {
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
