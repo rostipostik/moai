@@ -875,22 +875,20 @@ body {
   line-height: 1.12;
   letter-spacing: -0.01em;
   color: #DFF0E1;
+  background-image: radial-gradient(123.44% 123.44% at 56.63% 100%, rgb(223, 240, 225) 6.77%, rgb(255, 255, 255) 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.39);
   width: 967px;
-  height: 144px;
 }
 .not-sure__link {
   font-weight: 500;
-  line-height: 1.25;
-  text-align: center;
+  line-height: normal;
   color: #2a2e33;
   border-radius: 32px;
-  padding: 19px 35px;
+  padding: 16px 0 16px 35px;
   width: 185px;
   height: 54px;
-  box-shadow: inset 0 1px 2px 0 #029316, inset 0 -1px 2px 0 #029316;
-  background: linear-gradient(180deg, #fff 0%, #dedede 100%);
-  position: relative;
-  top: 36px;
+  box-shadow: inset 0 1px 2px 0 rgba(2, 147, 22, 0.6196078431), inset 0 -1px 2px 0 rgba(2, 147, 22, 0.6196078431);
+  background: url(../img/arrow-contact.svg) no-repeat right 35px center, linear-gradient(180deg, #fff 0%, #dedede 100%);
 }/*# sourceMappingURL=main.css.map */
