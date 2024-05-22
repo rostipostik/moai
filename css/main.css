@@ -863,6 +863,7 @@ body {
   background: #010902 url(../img/bg-sure.png) no-repeat center;
   gap: 50px;
   border-radius: 20px;
+  align-items: center;
 }
 .not-sure .container {
   padding: 50px 0px;
