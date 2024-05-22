@@ -1,0 +1,44 @@
+.not-sure {
+    &__wrapper {
+        display: flex;
+        padding: 46px 48px 46px 50px;
+        background: $colorDark url(../img/bg-sure.png) no-repeat center;
+        gap: 50px;
+        border-radius: 20px;
+    }
+
+    .container {
+        padding: 50px 0px;
+        width: 1300px;
+        height: 336px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.12;
+        letter-spacing: -0.01em;
+        color: #DFF0E1;
+        // background: radial-gradient(123.44% 123.44% at 56.63% 100.00%, #dff0e1 6.77083358168602%, #ffffff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        width: 967px;
+        height: 144px;
+    }
+
+    &__link {
+        font-weight: 500;
+        line-height: 1.25;
+        text-align: center;
+        color: #2a2e33;
+        border-radius: 32px;
+        padding: 19px 35px;
+        width: 185px;
+        height: 54px;
+        box-shadow: inset 0 1px 2px 0 #029316, inset 0 -1px 2px 0 #029316;
+        background: linear-gradient(180deg, #fff 0%, #dedede 100%);
+        position: relative;
+        top: 36px;
+    }
+}
