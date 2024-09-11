@@ -892,4 +892,27 @@ body {
   height: 54px;
   box-shadow: inset 0 1px 2px 0 rgba(2, 147, 22, 0.6196078431), inset 0 -1px 2px 0 rgba(2, 147, 22, 0.6196078431);
   background: url(../img/arrow-contact.svg) no-repeat right 35px center, linear-gradient(180deg, #fff 0%, #dedede 100%);
+}
+
+.experience {
+  padding: 150px 0;
+}
+.experience-subtitle {
+  margin: 0 0 16px;
+}
+.experience-title {
+  text-align: left;
+}
+.experience-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.experience-content:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+.experience-content p {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 418px;
 }/*# sourceMappingURL=main.css.map */
